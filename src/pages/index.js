@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/getting-started/installation">
             Documentation
           </Link>
         </div>
@@ -24,13 +24,13 @@ function HomepageHeader() {
     </header>
   );
 }
-
+ 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome`}
+      description="Ps-PHP Official Documentation <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -17,12 +17,7 @@ module.exports = {
         src: 'img/ps-logo.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
-        },
+        {to: '/docs/getting-started/installation', label: 'Docs', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           label: 'Theme',
@@ -38,7 +33,7 @@ module.exports = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/docs/getting-started/installation',
             },
           ],
         },
@@ -66,6 +61,9 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Ps-PHP. Built with Docusaurus.`,
+    },
+    prism: {
+      additionalLanguages: ['php'],
     },
   },
   presets: [
