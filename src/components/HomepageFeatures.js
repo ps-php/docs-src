@@ -8,18 +8,16 @@ const FeatureList = [
     Svg: require('../../static/img/easy.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ps-PHP is a minimalistic framework, made in a non-OOP style that will make it easier for you to make simple and intermediate application.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Beginner Friendly',
     Svg: require('../../static/img/beginner.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We write this framework in a procedural style which means that all PHP users start from beginners can use Ps-PHP.
       </>
     ),
   },
